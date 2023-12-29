@@ -1,0 +1,129 @@
+/* Write your code here. */
+
+body {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+}
+
+.boxes-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #0f172a;
+  margin-bottom: 54px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 64px;
+    margin-bottom: 40px;
+  }
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .boxes-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+.small-box {
+  background-color: #fbbf24;
+  height: 40px;
+  width: 40px;
+  padding-top: 28px;
+  padding-right: 25px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .small-box {
+    margin-right: 80px;
+    height: 80px;
+    width: 80px;
+    padding-top: 56px;
+    padding-right: 50px;
+    padding-bottom: 36px;
+    padding-left: 40px;
+  }
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  height: 60px;
+  width: 60px;
+  padding-top: 68px;
+  padding-right: 55px;
+  padding-bottom: 38px;
+  padding-left: 50px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .medium-box {
+    margin-right: 80px;
+    height: 120px;
+    width: 120px;
+    padding-top: 136px;
+    padding-right: 110px;
+    padding-bottom: 76px;
+    padding-left: 100px;
+  }
+}
+
+.large-box {
+  background-color: #ec4899;
+  height: 80px;
+  width: 80px;
+  padding-top: 100px;
+  padding-right: 65px;
+  padding-bottom: 58px;
+  padding-left: 100px;
+  margin-bottom: 25px;
+}
+ 
+@media screen and (min-width: 768px) {
+  .large-box {
+    margin-right: 80px;
+    height: 160px;
+    width: 160px;
+    padding-top: 200px;
+    padding-right: 180px;
+    padding-bottom: 116px;
+    padding-left: 200px;
+  }
+}
+
+.size-name {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .size-name {
+    font-size: 36px;
+  }
+}
